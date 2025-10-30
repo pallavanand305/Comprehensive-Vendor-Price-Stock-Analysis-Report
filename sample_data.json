@@ -1,0 +1,87 @@
+{
+  "blu_maritime_procurement_analysis": {
+    "report_metadata": {
+      "company": "BLU Maritime",
+      "report_type": "Comprehensive Vendor Price & Stock Analysis",
+      "generated_on": "2024-01-15T10:30:00",
+      "cities_covered": 4,
+      "items_analyzed": 20,
+      "total_vendors": 240,
+      "currency_rates": {
+        "base": "INR",
+        "usd_rate": 83.25
+      }
+    },
+    "city_analysis": {
+      "Mumbai": {
+        "total_procurement_cost_inr": 2850.75,
+        "total_procurement_cost_usd": 34.25,
+        "high_risk_items": 3,
+        "vendor_count": 60,
+        "best_vendors": ["Mumbai_Vendor_A", "Mumbai_Vendor_B"]
+      },
+      "Delhi": {
+        "total_procurement_cost_inr": 2720.50,
+        "total_procurement_cost_usd": 32.69,
+        "high_risk_items": 2,
+        "vendor_count": 60,
+        "best_vendors": ["Delhi_Vendor_C", "Delhi_Vendor_A"]
+      },
+      "Pune": {
+        "total_procurement_cost_inr": 2650.25,
+        "total_procurement_cost_usd": 31.84,
+        "high_risk_items": 4,
+        "vendor_count": 60,
+        "best_vendors": ["Pune_Vendor_B", "Pune_Vendor_A"]
+      },
+      "Kolkata": {
+        "total_procurement_cost_inr": 2580.00,
+        "total_procurement_cost_usd": 31.00,
+        "high_risk_items": 1,
+        "vendor_count": 60,
+        "best_vendors": ["Kolkata_Vendor_A", "Kolkata_Vendor_C"]
+      }
+    },
+    "item_comparison": {
+      "Rice (Basmati)": {
+        "min_price_inr": 110.50,
+        "max_price_inr": 135.75,
+        "avg_price_inr": 122.15,
+        "price_variance": 25.25,
+        "best_city": "Kolkata"
+      },
+      "Cooking Oil": {
+        "min_price_inr": 165.00,
+        "max_price_inr": 195.50,
+        "avg_price_inr": 180.25,
+        "price_variance": 30.50,
+        "best_city": "Pune"
+      },
+      "Lentils (Dal)": {
+        "min_price_inr": 78.25,
+        "max_price_inr": 92.75,
+        "avg_price_inr": 85.50,
+        "price_variance": 14.50,
+        "best_city": "Delhi"
+      }
+    },
+    "procurement_recommendations": [
+      {
+        "priority": "High",
+        "recommendation": "Source Rice (Basmati) from Kolkata vendors for 18% cost savings",
+        "estimated_savings_inr": 450.00
+      },
+      {
+        "priority": "Medium",
+        "recommendation": "Establish backup suppliers in Mumbai for high-risk items",
+        "risk_mitigation": "Reduce stockout probability by 35%"
+      },
+      {
+        "priority": "Low",
+        "recommendation": "Negotiate bulk pricing for MOQ above 100kg",
+        "potential_discount": "5-8%"
+      }
+    ],
+    "confidential_access": "BLU_MARITIME_ONLY"
+  }
+}
